@@ -1,6 +1,7 @@
 import main from "./mainbutton.js";
 import about from "./aboutbutton.js";
 import menu from "./menubutton.js";
+import "./style.css";
 
 window.addEventListener("load", main);
 

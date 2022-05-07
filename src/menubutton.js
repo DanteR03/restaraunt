@@ -1,3 +1,5 @@
+import pizza1 from "./pizza.jpg";
+
 export default function menu() {
   const content = document.querySelector("#content");
 
@@ -63,16 +65,16 @@ export default function menu() {
   cardPara4.textContent = "Lorem ipsum dolor";
 
   const foodPicture = document.createElement("img");
-  foodPicture.setAttribute("src", "./pizza.jpg")
+  foodPicture.setAttribute("src", pizza1);
 
   const foodPicture2 = document.createElement("img");
-  foodPicture2.setAttribute("src", "./pizza.jpg")
+  foodPicture2.setAttribute("src", pizza1)
 
   const foodPicture3 = document.createElement("img");
-  foodPicture3.setAttribute("src", "./pizza.jpg")
+  foodPicture3.setAttribute("src", pizza1)
 
   const foodPicture4 = document.createElement("img");
-  foodPicture4.setAttribute("src", "./pizza.jpg")
+  foodPicture4.setAttribute("src", pizza1)
 
   const footerContainer = document.createElement("div");
   footerContainer.classList.add("footer-container");
