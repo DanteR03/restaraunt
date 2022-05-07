@@ -48,6 +48,12 @@ button {
   background: rgba(255, 255, 255, 0.7);
   font-size: 1.5rem;
   font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .main-container {
@@ -83,4 +89,9 @@ button {
 
 .footer-container, .section, h1 {
   color:rgba(255, 255, 255)
+}
+
+.activated {
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0);
+  outline: none;
 }
