@@ -15,6 +15,8 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background: url(./pizza.jpg);
+  background-size: cover;
 }
 
 .header-container {
@@ -43,6 +45,9 @@ h1 {
 button {
   flex: 1;
   height: 65px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .main-container {
@@ -50,8 +55,6 @@ button {
   flex-direction: column;
   align-items: center;
   padding-top: 25px;
-  background: url(./pizza.jpg);
-  background-size: cover;
   flex: 1;
 }
 
@@ -63,7 +66,7 @@ button {
   text-align: center;
   gap: 10px;
   width: 500px;
-  height: 150px;
+  height: 200px;
 }
 
 .footer-container {
@@ -72,4 +75,12 @@ button {
   justify-content: center;
   margin-top: auto;
   min-height: 50px;
+}
+
+.main-container, .footer-container, .header-container{
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.footer-container, .section, h1 {
+  color:rgba(255, 255, 255)
 }
