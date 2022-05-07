@@ -1,1 +1,6 @@
-console.log("Test Test Test");
+import main from "./mainbutton.js";
+
+window.onload = main;
+
+
+
