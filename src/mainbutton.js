@@ -41,6 +41,10 @@ export default function main() {
   const footerPara = document.createElement("p");
   footerPara.textContent = "Created by DanteR03 for The Odin Project";
 
+  while (content.firstChild) {
+    content.removeChild(content.lastChild);
+  };
+
   buttonContainer.append(mainButton, menuButton, aboutButton);
 
   headerContainer.append(header, buttonContainer);
